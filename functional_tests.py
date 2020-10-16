@@ -16,7 +16,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://localhost:8000')
         # Alors il peut lire "To-Do" dans l'onglet
         self.assertIn('To-Do', self.browser.title)
-        # ON FAIT ECHOUER LE TEST VOLONTAIREMENT CAR INCOMPLET
+        # Echec volontaire du test
         self.fail('FInish the test!')
         # Et on lui propose de saisir une note de texte.
 
