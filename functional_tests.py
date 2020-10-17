@@ -17,7 +17,7 @@ class NewVisitorTest(unittest.TestCase):
         # Alors il peut lire "To-Do" dans l'onglet
         self.assertIn('To-Do', self.browser.title)
         # Echec volontaire du test
-        self.fail('FInish the test!')
+        self.fail('Finish the test!')
         # Et on lui propose de saisir une note de texte.
 
 
